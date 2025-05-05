@@ -127,7 +127,7 @@ rect = text.get_rect()
 rect.y_cor = 20
 
 while True:
-    console.fill(" ")  # Очистка консоли
+    console.fill(" ")
     pcg.draw.blit(console, text, rect)
     rect.x_cor += 0.1
     if rect.x_cor > console.size_x:
